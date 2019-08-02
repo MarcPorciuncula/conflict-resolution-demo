@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.text {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  max-width: 13em;
+  text-align: center;
+  animation: pulse 2s ease-in-out 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(2);
+  }
+}
